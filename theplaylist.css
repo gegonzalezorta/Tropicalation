@@ -1,0 +1,47 @@
+
+.container{
+  font-family: 'Raleway', sans-serif;
+}
+
+.unordered_list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.tab {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-color: #F2F3F4;
+    background-color: #111;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.playlists {
+      display: flex;
+      padding: 25px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image:url(miami.jpg);
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px;
+}
+
+.box{
+  height: 500px;
+  width: 450px;
+  border: 0px;
+  display: flex;
+}
